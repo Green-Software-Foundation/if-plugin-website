@@ -41,12 +41,16 @@ Our governance model works as follows:
 - new plugins are added by PR to this repository
 - each PR is gated behind a short questionnaire where authors confirm some basic properties of their plugin
 - the plugin lists as long as the required information is provided - the IF core team does not judge the code quality, safety or security of each plugin, we simply confirm that the required information is available.
-- community participants make their own decisions about whether to download and run a plugin from the registry after reviewing theavailable information found via the registry
+- community participants make their own decisions about whether to download and run a plugin from the registry after reviewing the available information found via the registry
 - if a plugin is found to be broken, incorrect, insecure or otherwise low quality, anyone can start a discussion about it on this repository which may lead to the plugin being delisted.
 - later, we will introduce badges to help the community see useful information about plugins at a glance, e.g. a "100% unit test coverage badge", "excellent docs" badge, etc.
 
 The IF core team take no responsibility for the safety, security or functionality of the plugins on the site. We simply provide this site and listing service to enable the community to find plugins and then do their own due diligence before choosing to download and run them. We hope that strong community governance will emerge.
 
+
+
+
+
 ## How to add a plugin
 
-You can raise a PR to this repository. Step by step instructions ae coming soon!
+You can raise a PR to this repository. Step by step instructions are coming soon!
