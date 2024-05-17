@@ -75,3 +75,5 @@ Your plugin documentation should include the following information:
 - A link to your unit tests 
 - A list of errors that your plugin can raise, the behaviours that cause them and potential remedies.
 - A demo manifest that executes the plugin correctly without errors
+
+The information is generally expected to be available in the plugin README.
