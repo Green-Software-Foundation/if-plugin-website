@@ -59,18 +59,18 @@ Your PR should update the json data that we use to render cards in the UI. The j
 
 ```json
 {
-    name: <your plugin name>
-    github: <link to github repository>
-    npm: <link to npm package page - optional>
-    description: <short description of the plugin>
-    author: <your name, pseudonym or github handle>
-    docs: <link to plugin README>
-    email: <email address where you can be contacted>
-    tags: <tags that apply to your plugin>
-    badge: <IF team to fill this in during review>
+    "name": "<your plugin name>",
+    "github": "<link to github repository>",
+    "npm": "<link to npm package page - optional>",
+    "description": "<short description of the plugin>",
+    "author": "<your name, pseudonym or github handle>",
+    "docs": "<link to plugin README>",
+    "email": "<email address where you can be contacted>",
+    "tags": "<tags that apply to your plugin>",
+    "badge": "<IF team to fill this in during review>"
 }
 ```
 
 You can simply create a block of json following the schema above and add it to the existing json file. We will review the changes and merge the PR, and your plugin will automatically have its own card on the website. 
 
-Please provide one block of json for a single plugin - i.e do not provide a single card for a repo containing lots of plugins. We would much prefer each plugin to have its own repository and independent documentation. This means we can provide one card per plugin on the website and users will be able to find the plugin they are looking for more easily.
+Please provide one block of json for a single plugin - i.e. do not provide a single card for a repo containing lots of plugins. We would much prefer each plugin to have its own repository and independent documentation. This means we can provide one card per plugin on the website and users will be able to find the plugin they are looking for more easily.
