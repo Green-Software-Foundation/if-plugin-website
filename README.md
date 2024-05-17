@@ -49,8 +49,6 @@ The IF core team take no responsibility for the safety, security or functionalit
 
 
 
-
-
 ## How to add a plugin
 
 You can add a plugin to the website by filling in this form:
@@ -62,3 +60,18 @@ You can add a plugin to the website by filling in this form:
 Please submit the form once for each individual plugin - i.e. do not submit one form for a repo containing multiple plugins. 
 
 We would much prefer each plugin to have its own repository and independent documentation. This means we can provide one card per plugin on the website and users will be able to find the plugin they are looking for more easily.
+
+
+
+## Plugin Documentation 
+
+Your plugin documentation should include the following information:
+
+- A list of the required and optional parameters and return values, with types and any valid ranges/properties clearly defined.
+- A list of required and optional configuration
+- A description of any environment setup such as credentials in environment variables, etc.
+- Installation instructions
+- A written description of the plugin behaviour
+- A link to your unit tests 
+- A list of errors that your plugin can raise, the behaviours that cause them and potential remedies.
+- A demo manifest that executes the plugin correctly without errors
