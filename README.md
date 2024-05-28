@@ -26,7 +26,7 @@ Plugins are discrete units of code that do some specific operation on Impact Fra
 
 To ensure plugins integrate easily into Impact Framework, there are some simple rules about how they are structured. You can read about the plugin requirements [here](https://if.greensoftware.foundation/developers/how-to-build-plugins).
 
-Each plugin is expected to be available in a Github repository and/or an npm package.
+Each plugin is expected to be available in a Github repository (or equivalent) and/or an npm package.
 
 This website lists plugins so that they are discoverable for other developers who can use them in their pipelines.
 
@@ -34,19 +34,18 @@ This website lists plugins so that they are discoverable for other developers wh
 
 ## Plugin governance
 
-We aim to list as many plugins as possible. We do not want to be gatekeepers to the registry. However, we do want to ensure some minimum thresholds of quality and safety on the site. 
+We aim to list as many plugins as possible. We do not want to be gatekeepers. However, we do want to ensure some minimum thresholds of quality and safety on the site. 
 
 Our governance model works as follows:
 
 - new plugins are added by PR to this repository
-- each PR is gated behind a short questionnaire where authors confirm some basic properties of their plugin
-- the plugin lists as long as the required information is provided - the IF core team does not judge the code quality, safety or security of each plugin, we simply confirm that the required information is available.
-- community participants make their own decisions about whether to download and run a plugin from the registry after reviewing the available information found via the registry
+- each PR is gated behind a [short submission form](https://wiki.greensoftware.foundation/impact-framework-plugins) where authors confirm some basic properties of their plugin
+- the plugin is listed on the Explorer website as long as the required information is provided - the IF core team does not judge the code quality, safety or security of each plugin, we simply confirm that the required information is available.
+- community participants make their own decisions about whether to download and run a plugin from the Explorer
 - if a plugin is found to be broken, incorrect, insecure or otherwise low quality, anyone can start a discussion about it on this repository which may lead to the plugin being delisted.
-- later, we will introduce badges to help the community see useful information about plugins at a glance, e.g. a "100% unit test coverage badge", "excellent docs" badge, etc.
+- later, we will introduce badges to help the community see useful information about plugins at a glance
 
 The IF core team take no responsibility for the safety, security or functionality of the plugins on the site. We simply provide this site and listing service to enable the community to find plugins and then do their own due diligence before choosing to download and run them. We hope that strong community governance will emerge.
-
 
 
 ## How to add a plugin
@@ -54,7 +53,7 @@ The IF core team take no responsibility for the safety, security or functionalit
 You can add a plugin to the website by filling in this form:
 
 
-[IF PLUGIN SUBMISSION FORM](https://noteforms.com/forms/if-explorer-plugins-njkhk5)
+[IF PLUGIN SUBMISSION FORM](https://wiki.greensoftware.foundation/impact-framework-plugins)
 
 
 Please submit the form once for each individual plugin - i.e. do not submit one form for a repo containing multiple plugins. 
@@ -78,3 +77,5 @@ Your plugin documentation should include the following information:
 - A reference list of any publications or other material supporting the approach you have taken in your plugin.
 
 The information is generally expected to be available in the plugin README.
+
+[Here is a README template](./readme-template.md) that will help you to organize this information.
