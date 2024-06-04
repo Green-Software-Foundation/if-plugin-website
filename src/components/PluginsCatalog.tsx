@@ -8,7 +8,7 @@ import { SearchBox, PoweredBy, Hits, Pagination, useInstantSearch } from 'react-
 const Hit = ({ hit }: {
   hit: Plugin
 }) =>
-  <ProfileCard data={{ ...hit, url: `/plugins/${hit.url}` }} />
+  <ProfileCard data={{ ...hit }} />
 
 const NoResults = () => (
   <div className="w-full flex flex-col items-center justify-center gap-3">

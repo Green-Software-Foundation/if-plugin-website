@@ -42,7 +42,7 @@ const Directory = () => {
 
     return (
         <div className="mb-10 w-full relative">
-            <InstantSearch searchClient={searchClient} indexName="Champions" future={{ preserveSharedStateOnUnmount: true }} routing={true} stalledSearchDelay={500}>
+            <InstantSearch searchClient={searchClient} indexName="Plugins" future={{ preserveSharedStateOnUnmount: true }} routing={true} stalledSearchDelay={500}>
                 <PluginsCatalog toggleFilter={() => setIsFilterOpen(prevState => !prevState)} />
             </InstantSearch >
         </div >
