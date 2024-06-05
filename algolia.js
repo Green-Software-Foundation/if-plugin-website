@@ -61,7 +61,7 @@ async function fetchAndUploadPlugins() {
         description: item.properties['Description']?.rich_text[0]?.plain_text || '',
         author: item.properties['Author']?.rich_text[0]?.plain_text || '',
         docs: item.properties['Documentation']?.rich_text[0]?.plain_text || '',
-        tags: item.properties['Tags']?.rich_text[0]?.plain_text.split(' ') || [],
+        tags: item.properties['Tags']?.rich_text[0]?.plain_text.split(',') || [],
         badge: item.properties['Badge']?.rich_text[0]?.plain_text || null,
         npmDownloads,
         githubStars,

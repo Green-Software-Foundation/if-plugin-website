@@ -1,7 +1,6 @@
 ---
 const year = new Date().getFullYear();
 import Logo from "../images/logo-alt.svg?raw";
-
 ---
 
 <footer
@@ -12,10 +11,10 @@ import Logo from "../images/logo-alt.svg?raw";
       <span class="w-40 mx-auto md:mx-0">
         <Fragment set:html={Logo} />
       </span>
-      <p  class="text-gray-300 text-xs font-normal pt-4">
-        Copyright © {year} Joint Development Foundation Projects, LLC, Green
-        Software Foundation Series <br /><br /> The Joint Development Foundation
-        Projects, LLC is an affiliate of the Linux Foundation.
+      <p class="text-gray-300 text-xs font-normal pt-4">
+        Copyright © {year} Joint Development Foundation Projects, LLC, Green Software
+        Foundation Series <br /><br /> The Joint Development Foundation Projects,
+        LLC is an affiliate of the Linux Foundation.
       </p>
     </div>
 
@@ -29,11 +28,22 @@ import Logo from "../images/logo-alt.svg?raw";
       </h1>
 
       <div class="flex flex-col gap-4">
-        <a href="https://grnsft.org/champions/contact" class="text-xs text-gray-300"
-          >Contact a Green Software Champion</a
+        <a
+          href="https://grnsft.org/if/how-to-submit-plugin"
+          class="text-xs text-gray-300">How to submit a plugin</a
         >
-        <a href="https://grnsft.org/champions/chairguide" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-300">For GSF Project & WG Chairs</a>
-        <a href="https://github.com/Green-Software-Foundation/champions" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-300">GitHub Repo</a>
+        <a
+          href="https://grnsft.org/champions/chairguide"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-300">For GSF Project & WG Chairs</a
+        >
+        <a
+          href="https://github.com/Green-Software-Foundation/champions"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-300">GitHub Repo</a
+        >
       </div>
     </div>
 
@@ -46,9 +56,24 @@ import Logo from "../images/logo-alt.svg?raw";
         ></span>
       </h1>
       <div class="flex flex-col gap-4">
-        <a href="https://greensoftware.foundation/policy/trademark" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-300">Trademark Policy</a>
-        <a href="https://greensoftware.foundation/policy/terms" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-300">Privacy Policy</a>
-        <a href="https://greensoftware.foundation/policy/terms" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-300">Terms and Conditions</a>
+        <a
+          href="https://greensoftware.foundation/policy/trademark"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-300">Trademark Policy</a
+        >
+        <a
+          href="https://greensoftware.foundation/policy/terms"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-300">Privacy Policy</a
+        >
+        <a
+          href="https://greensoftware.foundation/policy/terms"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-300">Terms and Conditions</a
+        >
       </div>
     </div>
 
@@ -61,10 +86,34 @@ import Logo from "../images/logo-alt.svg?raw";
         ></span>
       </h1>
       <div class="flex flex-col gap-4">
-        <a href="https://greensoftware.foundation/" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-300">Website</a>
-        <a href="https://twitter.com/gsfcommunity" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-300">Twitter</a>
-        <a href="https://www.linkedin.com/company/green-software-foundation/" target="_blank" rel="noopener noreferrer" class="text-xs text-gray-300">LinkedIn</a>
+        <a
+          href="https://greensoftware.foundation/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-300">Website</a
+        >
+        <a
+          href="https://twitter.com/gsfcommunity"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-300">Twitter</a
+        >
+        <a
+          href="https://www.linkedin.com/company/green-software-foundation/"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="text-xs text-gray-300">LinkedIn</a
+        >
       </div>
     </div>
   </div>
+  <p 
+    class=" text-white mt-6 p-4 text-left bg-primary-default rounded"
+  >
+    The Impact Framework team take no responsibility for the quality or security
+    of the plugins listed on this page. We check that the necessary information
+    is provided with a plugin submission at the time the submission request is
+    made but we do not check the plugin code or verify its correct execution.
+    You should carefully audit any plugins you intend to install.
+  </p>
 </footer>

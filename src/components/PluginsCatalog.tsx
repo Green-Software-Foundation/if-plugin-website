@@ -2,7 +2,7 @@ import ProfileCard from "./PluginCard";
 import ProfileCardSkeleton from "./ProfileCardSkeleton";
 import type { Plugin } from "types";
 import { Search as SearchIcon } from "lucide-react";
-import { SearchBox, PoweredBy, Hits, Pagination, useInstantSearch } from 'react-instantsearch';
+import { SearchBox, PoweredBy, Hits, Pagination, useInstantSearch, CurrentRefinements } from 'react-instantsearch';
 
 
 const Hit = ({ hit }: {

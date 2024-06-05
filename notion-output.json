@@ -1,0 +1,4692 @@
+[
+  {
+    "object": "page",
+    "id": "b08ca25c-b0b8-4a1f-86ed-3f901f40de84",
+    "created_time": "2024-06-04T11:32:00.000Z",
+    "last_edited_time": "2024-06-04T11:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Endava/awsimporter-impactframework-plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Endava/awsimporter-impactframework-plugin",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Endava/awsimporter-impactframework-plugin/blob/main/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Endava/awsimporter-impactframework-plugin/blob/main/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Endava",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Endava",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "james.costerton@endava.com"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "aws aws-sdk aws-ec2 aws-ebs green-software-foundation impact-framework",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "aws aws-sdk aws-ec2 aws-ebs green-software-foundation impact-framework",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Plugin allowing retrieval of metadata and CloudWatch observations from AWS EC2 instances and EBS volumes for use in a pipeline.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Plugin allowing retrieval of metadata and CloudWatch observations from AWS EC2 instances and EBS volumes for use in a pipeline.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AWS-Importer Impact-Framework Plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AWS-Importer Impact-Framework Plugin",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/AWS-Importer-Impact-Framework-Plugin-b08ca25cb0b84a1f86ed3f901f40de84",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "b400dd91-77c8-40e1-9297-2f55775c3224",
+    "created_time": "2024-05-31T16:11:00.000Z",
+    "last_edited_time": "2024-05-31T16:11:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Endava/climatiq-impactframework-plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Endava/climatiq-impactframework-plugin",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Endava/climatiq-impactframework-plugin/blob/main/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Endava/climatiq-impactframework-plugin/blob/main/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Endava",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Endava",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "james.costerton@endava.com"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Green-software-foundation Climatiq Impact-framework",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Green-software-foundation Climatiq Impact-framework",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Enables use of Climatiq's Cloud-Computing calculation APIs within a pipeline.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Enables use of Climatiq's Cloud-Computing calculation APIs within a pipeline.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Climatiq Impact-Framework Plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Climatiq Impact-Framework Plugin",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Climatiq-Impact-Framework-Plugin-b400dd9177c840e192972f55775c3224",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8b327da4-3696-43c3-8c05-ec823dd212ea",
+    "created_time": "2024-05-30T20:26:00.000Z",
+    "last_edited_time": "2024-05-30T20:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/perkss/grafana-export",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/perkss/grafana-export",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/perkss/grafana-export/blob/main/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/perkss/grafana-export/blob/main/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "perkss",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "perkss",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "stuart.m.perks@gmail.com"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "csv, grafana, export",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "csv, grafana, export",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A export plugin for Grafana",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A export plugin for Grafana",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "grafana-export",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "grafana-export",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/grafana-export-8b327da4369643c38c05ec823dd212ea",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "5ff3e636-a373-46ef-8ee5-b46629909f65",
+    "created_time": "2024-05-24T16:09:00.000Z",
+    "last_edited_time": "2024-05-28T13:56:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin/tree/main/src/lib/storage-read-write-energy",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin/tree/main/src/lib/storage-read-write-energy",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "mgriffin-scottlogic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "mgriffin-scottlogic",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "mgriffin@scottlogic.com"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "storage, energy",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "storage, energy",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin allows you to estimate the energy required to read/write data to a storage device, amount of data and drive type",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin allows you to estimate the energy required to read/write data to a storage device, amount of data and drive type",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "storage-read-write-energy",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "storage-read-write-energy",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/storage-read-write-energy-5ff3e636a37346ef8ee5b46629909f65",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "be66eae7-3939-4bc0-82ff-47bca8b2a9b7",
+    "created_time": "2024-05-24T16:07:00.000Z",
+    "last_edited_time": "2024-05-28T13:56:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin/tree/main/src/lib/cloud-storage-metadata",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin/tree/main/src/lib/cloud-storage-metadata",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "mgriffin-scottlogic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "mgriffin-scottlogic",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "mgriffin@scottlogic.com"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "storage, cloud",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "storage, cloud",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin allows you to determine the replication factor for cloud storage, based on vendor, service and usage type.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin allows you to determine the replication factor for cloud storage, based on vendor, service and usage type.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "cloud-storage-metadata",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "cloud-storage-metadata",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/cloud-storage-metadata-be66eae739394bc082ff47bca8b2a9b7",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8b90b925-36a0-4025-80e2-5c80e26fe29d",
+    "created_time": "2024-05-24T16:06:00.000Z",
+    "last_edited_time": "2024-05-28T13:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin/blob/main/src/lib/storage-energy/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/mgriffin-scottlogic/if-carbon-hack-plugin/blob/main/src/lib/storage-energy/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "mgriffin-scottlogic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "mgriffin-scottlogic",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "mgriffin@scottlogic.com"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "storage, energy",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "storage, energy",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin allows you to estimate the energy required to store data, based on the amount of data, storage time and drive type.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin allows you to estimate the energy required to store data, based on the amount of data, storage time and drive type.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "storage-energy",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "storage-energy",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/storage-energy-8b90b92536a0402580e25c80e26fe29d",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a9e818a8-d4fb-4e1e-8ec1-10e0fc4028a2",
+    "created_time": "2024-05-24T09:02:00.000Z",
+    "last_edited_time": "2024-05-28T13:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/andreic94/if-prometheus-importer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/andreic94/if-prometheus-importer",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/andreic94/if-prometheus-importer/blob/main/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/andreic94/if-prometheus-importer/blob/main/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "@andreic94 @ParvanAndrei @MXG99 @laurandrei994 @AmeliaCrizbasan @AlexHusleag @angelcataron @hyper11011",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "@andreic94 @ParvanAndrei @MXG99 @laurandrei994 @AmeliaCrizbasan @AlexHusleag @angelcataron @hyper11011",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "andrei.coman@siemens.com"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "prometheus, if-plugin, metrics",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "prometheus, if-plugin, metrics",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Prometheus Importer facilitates the consumption and processing of metrics stored in Prometheus through Impact Framework",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Prometheus Importer facilitates the consumption and processing of metrics stored in Prometheus through Impact Framework",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Prometheus Importer",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Prometheus Importer",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Prometheus-Importer-a9e818a8d4fb4e1e8ec110e0fc4028a2",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "e71b1fda-8efa-4e3c-bb79-b4fd27c94e1a",
+    "created_time": "2024-05-21T07:26:00.000Z",
+    "last_edited_time": "2024-05-21T07:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": null
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": []
+      }
+    },
+    "url": "https://www.notion.so/e71b1fda8efa4e3cbb79b4fd27c94e1a",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a93e7e1c-9ada-409e-a7a9-54a43d6424b6",
+    "created_time": "2024-05-20T09:12:00.000Z",
+    "last_edited_time": "2024-05-31T09:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/jmcook1186/carbon-intensity-plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/jmcook1186/carbon-intensity-plugin",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/jmcook1186/carbon-intensity-plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/jmcook1186/carbon-intensity-plugin",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Joseph Cook",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Joseph Cook",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "hi_jmc@protonmail.com"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.npmjs.com/package/carbon-intensity-plugin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.npmjs.com/package/carbon-intensity-plugin",
+            "href": null
+          }
+        ]
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "carbon-intensity",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "carbon-intensity",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Carbon Intensity plugin grabs grid intensity data from the UK National Grid carbon intensity API for a given date.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Carbon Intensity plugin grabs grid intensity data from the UK National Grid carbon intensity API for a given date.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Carbon intensity (UK grid)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Carbon intensity (UK grid)",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Carbon-intensity-UK-grid-a93e7e1c9ada409ea7a954a43d6424b6",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "1307da88-6433-439c-bf3d-827f21216180",
+    "created_time": "2024-05-20T09:09:00.000Z",
+    "last_edited_time": "2024-05-23T10:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/sum/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/sum/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IF core team",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IF core team",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GSF Official",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GSF Official",
+            "href": null
+          }
+        ]
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "info@greensoftware.foundation"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.npmjs.com/package/@grnsft/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.npmjs.com/package/@grnsft/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "builtin, generic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "builtin, generic",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sum is a generic plugin for doing arithmetic sums of two or more values in an input array. You provide the names of the values you want to sum, and a name to use to add the result to the output array.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sum is a generic plugin for doing arithmetic sums of two or more values in an input array. You provide the names of the values you want to sum, and a name to use to add the result to the output array.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Sum",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Sum",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Sum-1307da886433439cbf3d827f21216180",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "d3e8fe38-6a57-481b-b36f-8e7902832ec4",
+    "created_time": "2024-05-20T09:08:00.000Z",
+    "last_edited_time": "2024-05-23T10:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/shell/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/shell/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IF core team",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IF core team",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GSF Official",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GSF Official",
+            "href": null
+          }
+        ]
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "info@greensoftware.foundation"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.npmjs.com/package/@grnsft/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.npmjs.com/package/@grnsft/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "builtin, generic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "builtin, generic",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The shell is a wrapper enabling plugins implemented in any other programming language to be executed as a part of IF pipeline.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The shell is a wrapper enabling plugins implemented in any other programming language to be executed as a part of IF pipeline.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Shell",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Shell",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Shell-d3e8fe386a57481bb36f8e7902832ec4",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "fb57a7c0-eb07-4b06-b46d-883c2bcefbcd",
+    "created_time": "2024-05-20T09:07:00.000Z",
+    "last_edited_time": "2024-05-23T10:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/sci-m/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/sci-m/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IF core team",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IF core team",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GSF Official",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GSF Official",
+            "href": null
+          }
+        ]
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "info@greensoftware.foundation"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.npmjs.com/package/@grnsft/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.npmjs.com/package/@grnsft/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "builtin, generic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "builtin, generic",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SCI-embodied calculates the carbon emitted during the manufacture and eventual disposal of a component.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SCI-embodied calculates the carbon emitted during the manufacture and eventual disposal of a component.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SCI-embodied",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SCI-embodied",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/SCI-embodied-fb57a7c0eb074b06b46d883c2bcefbcd",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "94e0abea-566f-4c2a-b73a-315a5daf2229",
+    "created_time": "2024-05-20T09:06:00.000Z",
+    "last_edited_time": "2024-05-23T10:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/regex/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/regex/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IF core team",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IF core team",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GSF Official",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GSF Official",
+            "href": null
+          }
+        ]
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "info@greensoftware.foundation"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.npmjs.com/package/@grnsft/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.npmjs.com/package/@grnsft/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "builtin, generic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "builtin, generic",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Regex is a generic plugin to match part of one string in an input and extract it into an output. You provide the name of the value you want to match, and a name to use to add the regex to the output array.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Regex is a generic plugin to match part of one string in an input and extract it into an output. You provide the name of the value you want to match, and a name to use to add the regex to the output array.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Regex",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Regex",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Regex-94e0abea566f4c2ab73a315a5daf2229",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f9cadf42-bddd-44c7-96ec-242edb992371",
+    "created_time": "2024-05-20T09:05:00.000Z",
+    "last_edited_time": "2024-05-23T10:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/multiply/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/multiply/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IF core team",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IF core team",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GSF Official",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GSF Official",
+            "href": null
+          }
+        ]
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "info@greensoftware.foundation"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.npmjs.com/package/@grnsft/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.npmjs.com/package/@grnsft/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "builtin, generic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "builtin, generic",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Multiply is a generic plugin for multiplying two or more values in an input array. You provide the names of the values you want to multiply, and a name to use to append the product to the output array.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Multiply is a generic plugin for multiplying two or more values in an input array. You provide the names of the values you want to multiply, and a name to use to append the product to the output array.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Multiply",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Multiply",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Multiply-f9cadf42bddd44c796ec242edb992371",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8415e824-f696-483e-92ef-11d9e89d46de",
+    "created_time": "2024-05-20T09:03:00.000Z",
+    "last_edited_time": "2024-05-23T10:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/mock-observations/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/mock-observations/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IF core team",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IF core team",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GSF Official",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GSF Official",
+            "href": null
+          }
+        ]
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "info@greensoftware.foundation"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.npmjs.com/package/@grnsft/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.npmjs.com/package/@grnsft/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "builtin",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "builtin",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A plugin for mocking observations (inputs) for testing and demo purposes",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A plugin for mocking observations (inputs) for testing and demo purposes",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Mock observations",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Mock observations",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Mock-observations-8415e824f696483e92ef11d9e89d46de",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a7afdc0a-a268-4137-85d3-2b6a5841cd90",
+    "created_time": "2024-05-19T17:06:00.000Z",
+    "last_edited_time": "2024-05-28T13:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp/tree/main/src/lib/impact/displacement",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp/tree/main/src/lib/impact/displacement",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "hoernschen",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "hoernschen",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "hi@hoernschen.de"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "beyond-carbon, impact",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "beyond-carbon, impact",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin calculates the number of people that have to leave their home after emitting this amount of carbon",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin calculates the number of people that have to leave their home after emitting this amount of carbon",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Displacement",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Displacement",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Displacement-a7afdc0aa268413785d32b6a5841cd90",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "fbd1fdc7-c1c6-43ab-bfa8-b78c9d71bc38",
+    "created_time": "2024-05-19T17:05:00.000Z",
+    "last_edited_time": "2024-05-28T13:48:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp/tree/main/src/lib/impact/death",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp/tree/main/src/lib/impact/death",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "hoernschen",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "hoernschen",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "hi@hoernschen.de"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "beyond-carbon, impact",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "beyond-carbon, impact",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin calculates the number of premature deaths that can occur after emitting this amount of carbon",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin calculates the number of premature deaths that can occur after emitting this amount of carbon",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Premature Deaths",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Premature Deaths",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Premature-Deaths-fbd1fdc7c1c643abbfa8b78c9d71bc38",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "b424cc96-bbc5-45d1-9fb9-f4f99e523cd3",
+    "created_time": "2024-05-19T17:04:00.000Z",
+    "last_edited_time": "2024-05-28T13:48:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp/tree/main/src/lib/impact/SCC",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp/tree/main/src/lib/impact/SCC",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "hoernschen",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "hoernschen",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "hi@hoernschen.de"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "beyond-carbon, impact",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "beyond-carbon, impact",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin calculates the amount of damages (in $) that can occur after emitting this amount of carbon (with different years)",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin calculates the amount of damages (in $) that can occur after emitting this amount of carbon (with different years)",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "SCC: Social Cost of Carbon",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "SCC: Social Cost of Carbon",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/SCC-Social-Cost-of-Carbon-b424cc96bbc545d19fb9f4f99e523cd3",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "20736553-3f60-451a-b9a5-ae56cb5fe9af",
+    "created_time": "2024-05-19T17:02:00.000Z",
+    "last_edited_time": "2024-05-28T13:48:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp/tree/main/src/lib/comparison/distance",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp/tree/main/src/lib/comparison/distance",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "hoernschen",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "hoernschen",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "hi@hoernschen.de"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "beyond-carbon, comparison, fun",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "beyond-carbon, comparison, fun",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin calculates the distance you can travel (in different forms of transport) that emit the same amount of carbon as the input",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin calculates the distance you can travel (in different forms of transport) that emit the same amount of carbon as the input",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Distance",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Distance",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Distance-207365533f60451ab9a5ae56cb5fe9af",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9c16bec8-a536-4c16-a894-e289f7ed299a",
+    "created_time": "2024-05-19T16:59:00.000Z",
+    "last_edited_time": "2024-05-28T13:49:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp/tree/main/src/lib/comparison/coffee",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp/tree/main/src/lib/comparison/coffee",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "hoernschen",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "hoernschen",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "hi@hoernschen.de"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "beyond-carbon, food, fun",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "beyond-carbon, food, fun",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin calculates the amount of cups of coffee (in different variations) that emit the same amount of carbon as the input",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin calculates the amount of cups of coffee (in different variations) that emit the same amount of carbon as the input",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Coffee",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Coffee",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Coffee-9c16bec8a5364c16a894e289f7ed299a",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "dbe71e50-72e4-4598-92ac-a7df92934b79",
+    "created_time": "2024-05-19T16:58:00.000Z",
+    "last_edited_time": "2024-05-28T13:49:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp/tree/main/src/lib/comparison/chocolate",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp/tree/main/src/lib/comparison/chocolate",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "hoernschen",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "hoernschen",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "hi@hoernschen.de"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "beyond-carbon, food, fun",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "beyond-carbon, food, fun",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin calculates the amount of chocolate bars (in different types) that emit the same amount of carbon as the input",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin calculates the amount of chocolate bars (in different types) that emit the same amount of carbon as the input",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Chocolate",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Chocolate",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Chocolate-dbe71e5072e4459892aca7df92934b79",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "873d2922-cada-412b-84bc-0ade75a43fad",
+    "created_time": "2024-05-19T16:57:00.000Z",
+    "last_edited_time": "2024-05-28T13:49:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/hoernschen/grasp/tree/main/src/lib/comparison/bananas",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/hoernschen/grasp/tree/main/src/lib/comparison/bananas",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "hoernschen",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "hoernschen",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "hi@hoernschen.de"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "beyond-carbon, food, fun",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "beyond-carbon, food, fun",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This plugin calculates the amount of bananas that emit the same amount of carbon as the input. It is inspired by the popular meme Banana for scale we created Banana(s) for scale.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This plugin calculates the amount of bananas that emit the same amount of carbon as the input. It is inspired by the popular meme Banana for scale we created Banana(s) for scale.",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Bananas",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Bananas",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Bananas-873d2922cada412b84bc0ade75a43fad",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "09ed7a70-19ad-4c23-9bb6-4404dad0a256",
+    "created_time": "2024-05-17T15:29:00.000Z",
+    "last_edited_time": "2024-05-23T10:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/divide/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/divide/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IF core team",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IF core team",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GSF Official",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GSF Official",
+            "href": null
+          }
+        ]
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "info@greensoftware.foundation"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.npmjs.com/package/@grnsft/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.npmjs.com/package/@grnsft/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "builtin, generic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "builtin, generic",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IF builtin that divides values in input data",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IF builtin that divides values in input data",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Divide",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Divide",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Divide-09ed7a7019ad4c239bb64404dad0a256",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f1f26577-52b0-4e41-a22c-ba6b2c2eef37",
+    "created_time": "2024-05-17T13:26:00.000Z",
+    "last_edited_time": "2024-05-23T10:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "056bf5ef-84af-434e-986a-7c83b26253c3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a738d394-0239-46eb-af13-143e6921fea0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/coefficient/README.md",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/coefficient/README.md",
+            "href": null
+          }
+        ]
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": true
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "IF Core team",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "IF Core team",
+            "href": null
+          }
+        ]
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "GSF Official",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "GSF Official",
+            "href": null
+          }
+        ]
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": "info@greensoftware.foundation"
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "https://www.npmjs.com/package/@grnsft/if-plugins",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://www.npmjs.com/package/@grnsft/if-plugins",
+            "href": null
+          }
+        ]
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "builtin, generic",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "builtin, generic",
+            "href": null
+          }
+        ]
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Impact Framework builtin that multiplies a value by a coefficient",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Impact Framework builtin that multiplies a value by a coefficient",
+            "href": null
+          }
+        ]
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Coefficient",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Coefficient",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Coefficient-f1f2657752b04e41a22cba6b2c2eef37",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "ee6e3da0-26a1-4276-9b3c-cbc996aaf779",
+    "created_time": "2024-05-17T13:20:00.000Z",
+    "last_edited_time": "2024-05-17T13:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "ac5736ff-afce-4829-8405-d2c6d292c619"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "f1fa5883-0db5-470c-8874-58abece48862"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Github repository": {
+        "id": "%3BJUd",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Documentation": {
+        "id": "Am%5Dh",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Approved?": {
+        "id": "CRuI",
+        "type": "checkbox",
+        "checkbox": false
+      },
+      "Author": {
+        "id": "OoUN",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Badge": {
+        "id": "g%3Bps",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Contact email": {
+        "id": "iLuq",
+        "type": "email",
+        "email": null
+      },
+      "NPM page": {
+        "id": "lSFL",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Tags": {
+        "id": "ocgy",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Description": {
+        "id": "s%7Dyh",
+        "type": "rich_text",
+        "rich_text": []
+      },
+      "Plugin Name": {
+        "id": "title",
+        "type": "title",
+        "title": []
+      }
+    },
+    "url": "https://www.notion.so/ee6e3da026a142769b3ccbc996aaf779",
+    "public_url": null
+  }
+]
