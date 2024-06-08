@@ -1,5 +1,5 @@
 import ProfileCard from "./PluginCard";
-import ProfileCardSkeleton from "./ProfileCardSkeleton";
+import ProfileCardSkeleton from "./PluginCardSkeleton";
 import type { Plugin } from "types";
 import { Search as SearchIcon } from "lucide-react";
 import { SearchBox, PoweredBy, Hits, Pagination, useInstantSearch, CurrentRefinements, useRefinementList } from 'react-instantsearch';
@@ -43,7 +43,7 @@ const PluginsCatalog = () => {
           }
         } />
       </div>
-      <CurrentRefinements 
+      <CurrentRefinements
         classNames={
           {
             root: "flex flex-wrap gap-2",
@@ -52,6 +52,13 @@ const PluginsCatalog = () => {
           }
         }
       />
+      {
+        status === "loading" || status === "stalled" && <div className="flex flex-col gap-3 w-full">
+          <ProfileCardSkeleton />
+          <ProfileCardSkeleton />
+          <ProfileCardSkeleton />
+        </div>
+      }
       <Hits hitComponent={Hit} classNames={
         {
           root: "w-full",
