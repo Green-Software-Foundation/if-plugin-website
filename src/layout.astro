@@ -5,13 +5,10 @@ import Navbar from "./components/Navbar.astro";
 
 const {
   image,
-  title = "Impact Framework Plugin Registry",
-  description = "Discover and contribute to the Impact Framework Plugin Registry, a platform for finding and adding plugins to measure and forecast software environmental impacts.",
-  leftPatternTop = 300,
+  title = "IF Explorer",
+  description = "Explore the Impact Framework Plugin Registry, a developing platform for adding, discovering, and governing plugins for the Impact Framework.",
 } = Astro.props;
 
-const isExpertPage = Astro.request.url.includes("/experts");
-const isProfilePage = Astro.request.url.includes("/profile");
 ---
 
 <!doctype html>
@@ -20,6 +17,16 @@ const isProfilePage = Astro.request.url.includes("/profile");
     <BaseHead title={title} description={description} image={image} />
   </head>
   <body class="bg-accent-lightest-1">
+    <img
+      src="/assets/TopFrameRight.svg"
+      alt="Frame"
+      class="absolute right-0 w-[70%] top-[20%] md:w-fit -z-10"
+    />
+    <img
+      src="/assets/TopFrameLeft.svg"
+      alt="Frame"
+      class="absolute left-0 top-[50%] w-[70%] md:w-fit -z-10"
+    />
     <main class="max-w-7xl mx-auto p-8 md:p-0 md:mt-8 md:px-8 z-0">
       <Navbar />
       <slot />

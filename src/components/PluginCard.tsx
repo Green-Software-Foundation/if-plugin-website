@@ -31,13 +31,13 @@ const ProfileCard = ({
   }
   return (
     <div className="w-full h-full p-6 bg-white rounded-lg shadow transition-all relative z-10 overflow-hidden inline-block  ">
-      <div className="flex justify-between  mb-2">
-        <div>
+      <div className="flex justify-between flex-col md:flex-row mb-2 gap-2 items-start">
+        <div className="order-2 md:order-none">
           <h2 className="text-primary-default font-extrabold text-xl">{name}</h2>
           <h3 className="text-black-default text-sm font-semibold">by {author}</h3>
         </div>
-        {badge && <div className="flex items-center gap-2">
-          <span className="bg-primary-dark text-white text-xs px-3 py-2 rounded tracking-wide uppercase font-extrabold">{badge} Plugin</span>
+        {badge && <div className="flex items-center gap-2 order-1 md:order-none w-full md:w-auto">
+          <span className="bg-primary-dark text-white text-xs px-3 py-2 rounded tracking-wide uppercase font-extrabold w-full text-center md:w-auto">{badge} Plugin</span>
         </div>}
       </div>
       <p className="text-lg text-black-default mb-6">{description}
