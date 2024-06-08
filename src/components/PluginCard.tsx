@@ -18,7 +18,21 @@ const ProfileCard = ({
     npmDownloads,
     githubStars
   } = data;
-
+  const handleTagClick = (tag: string) => {
+    // Get the query from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const tagParam = urlParams.get('Plugins[refinementList][tags][0]');
+    // If the tag is already in the query, remove it
+    if (tagParam === tag) {
+      urlParams.delete('Plugins[refinementList][tags][0]');
+    } else {
+      // Otherwise, set the tag in the query
+      urlParams.set('Plugins[refinementList][tags][0]', tag);
+    }
+    // Update the URL with the new query
+    window.history.pushState({}, '', `${window.location.pathname}?${urlParams}`);
+    window.dispatchEvent(new Event('popstate'));
+  }
   return (
     <div className="w-full h-full p-6 bg-white rounded-lg shadow transition-all relative z-10 overflow-hidden inline-block  ">
       <div className="flex justify-between text-primary-default font-extrabold text-xl mb-2">
@@ -31,7 +45,7 @@ const ProfileCard = ({
       </p>
       <div className="flex flex-wrap gap-2">
         {tags.map((tag, i) => (
-          <span key={i} className="bg-accent-default text-accent-darkest text-xs px-3 py-2 rounded-full tracking-wide uppercase font-extrabold">{tag}</span>
+          <button onClick={() => handleTagClick(tag)} key={i} className="bg-accent-default text-accent-darkest text-xs px-3 py-2 rounded-full tracking-wide uppercase font-extrabold">{tag}</button>
         ))}
       </div>
       <hr className="my-6 bg-gray-default border-none h-0.5" />

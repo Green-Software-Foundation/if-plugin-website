@@ -44,9 +44,4 @@ export async function getNotionDBData(databaseId, databaseName, filter) {
     throw new Error(`${title}. ${description}`);
   }
 }
-// Write result to a file notion-output.json
-import fs from 'fs';
-const result = await getNotionDBData('f1fa58830db5470c887458abece48862', 'IF Explorer: Plugins')
-fs.writeFileSync('notion-output.json', JSON.stringify(result, null, 2));
-
 

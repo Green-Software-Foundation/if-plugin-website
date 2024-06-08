@@ -2,7 +2,7 @@ import ProfileCard from "./PluginCard";
 import ProfileCardSkeleton from "./ProfileCardSkeleton";
 import type { Plugin } from "types";
 import { Search as SearchIcon } from "lucide-react";
-import { SearchBox, PoweredBy, Hits, Pagination, useInstantSearch, CurrentRefinements } from 'react-instantsearch';
+import { SearchBox, PoweredBy, Hits, Pagination, useInstantSearch, CurrentRefinements, useRefinementList } from 'react-instantsearch';
 
 
 const Hit = ({ hit }: {
@@ -16,12 +16,11 @@ const NoResults = () => (
     <p className="text-gray-400">Try a different search term</p>
   </div>
 )
-const PluginsCatalog = ({
-  toggleFilter
-}: {
-  toggleFilter: () => void
-}) => {
+const PluginsCatalog = () => {
   const { status, results } = useInstantSearch();
+  useRefinementList({
+    attribute: 'tags',
+  });
   return (
     <div className="flex flex-col items-start justify-start gap-3 md:gap-6 max-w-4xl mx-auto">
 
@@ -44,14 +43,15 @@ const PluginsCatalog = ({
           }
         } />
       </div>
-      <button onClick={toggleFilter} className="md:hidden border bg-accent-lightest-1 border-gray-400 p-2 rounded-md w-full text-sm font-bold tracking-wide text-gray-700">Show Filters</button>
-      {
-        status === "loading" || status === "stalled" && <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center mx-auto gap-6 w-full">
-          <ProfileCardSkeleton />
-          <ProfileCardSkeleton />
-          <ProfileCardSkeleton />
-        </div>
-      }
+      <CurrentRefinements 
+        classNames={
+          {
+            root: "flex flex-wrap gap-2",
+            item: "bg-accent-default text-accent-darkest text-xs px-3 py-2 rounded-full tracking-wide uppercase font-extrabold flex items-center gap-2",
+            category: "flex items-center gap-2",
+          }
+        }
+      />
       <Hits hitComponent={Hit} classNames={
         {
           root: "w-full",
