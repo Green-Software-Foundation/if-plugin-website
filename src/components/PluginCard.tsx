@@ -19,27 +19,26 @@ const ProfileCard = ({
     githubStars
   } = data;
   const handleTagClick = (tag: string) => {
-    // Get the query from the URL
     const urlParams = new URLSearchParams(window.location.search);
     const tagParam = urlParams.get('Plugins[refinementList][tags][0]');
-    // If the tag is already in the query, remove it
     if (tagParam === tag) {
       urlParams.delete('Plugins[refinementList][tags][0]');
     } else {
-      // Otherwise, set the tag in the query
       urlParams.set('Plugins[refinementList][tags][0]', tag);
     }
-    // Update the URL with the new query
     window.history.pushState({}, '', `${window.location.pathname}?${urlParams}`);
     window.dispatchEvent(new Event('popstate'));
   }
   return (
     <div className="w-full h-full p-6 bg-white rounded-lg shadow transition-all relative z-10 overflow-hidden inline-block  ">
-      <div className="flex justify-between text-primary-default font-extrabold text-xl mb-2">
+      <div className="flex justify-between  mb-2">
         <div>
-          <h2>{name}</h2>
+          <h2 className="text-primary-default font-extrabold text-xl">{name}</h2>
           <h3 className="text-black-default text-sm font-semibold">by {author}</h3>
         </div>
+        {badge && <div className="flex items-center gap-2">
+          <span className="bg-primary-dark text-white text-xs px-3 py-2 rounded tracking-wide uppercase font-extrabold">{badge} Plugin</span>
+        </div>}
       </div>
       <p className="text-lg text-black-default mb-6">{description}
       </p>
