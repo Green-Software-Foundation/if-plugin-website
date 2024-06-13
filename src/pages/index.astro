@@ -1,0 +1,23 @@
+---
+import Layout from "../layout.astro";
+import Directory from "../components/Directory";
+---
+
+<Layout>
+  <div class="relative isolate">
+    <div class="mx-auto max-w-2xl py-10 md:py-20">
+      <div class="text-center">
+        <h1
+          class="text-3xl md:text-6xl font-black tracking-tight text-primary-default"
+        >
+        IF Explorer
+        </h1>
+        <p class="mt-6 md:text-lg text-gray-600">
+          Explore the Impact Framework Plugin Registry, a developing platform for adding, discovering, and governing plugins for the Impact Framework. 
+        </p>
+      </div>
+    </div>
+  </div>
+  <Directory client:load/>
+
+</Layout>

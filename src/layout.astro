@@ -1,0 +1,36 @@
+---
+import BaseHead from "./components/BaseHead.astro";
+import Footer from "./components/Footer.astro";
+import Navbar from "./components/Navbar.astro";
+
+const {
+  image,
+  title = "IF Explorer",
+  description = "Explore the Impact Framework Plugin Registry, a developing platform for adding, discovering, and governing plugins for the Impact Framework.",
+} = Astro.props;
+
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} image={image} />
+  </head>
+  <body class="bg-accent-lightest-1">
+    <img
+      src="/assets/TopFrameRight.svg"
+      alt="Frame"
+      class="absolute right-0 w-[70%] top-[20%] md:w-fit -z-10"
+    />
+    <img
+      src="/assets/TopFrameLeft.svg"
+      alt="Frame"
+      class="absolute left-0 top-[50%] w-[70%] md:w-fit -z-10"
+    />
+    <main class="max-w-7xl mx-auto p-8 md:p-0 md:mt-8 md:px-8 z-0">
+      <Navbar />
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

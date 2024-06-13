@@ -1,0 +1,125 @@
+{
+    "plugins": [
+      {
+        "name": "cloud-metadata",
+        "github": "https://github.com/Green-Software-Foundation/if-plugins",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-plugins",
+        "description": "This plugin allows you to determine an instance's physical processor and thermal design power based on its instance name.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/cloud-metadata/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "coefficient",
+        "github": "https://github.com/Green-Software-Foundation/if-plugins",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-plugins",
+        "description": "Coefficient is a generic plugin for multiplying a value in an input array by a given coefficient. You provide the name of the value you want to multiply, a coefficient value, and a name to use to append the product to the output array. For example, you could multiply cpu/energy by 10 and name the result energy-product. energy-product would then be added to every observation in your input array as the product of cpu/energy and 10.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/coefficient/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "divide",
+        "github": "https://github.com/Green-Software-Foundation/if-plugins",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-plugins",
+        "description": "divide is a generic plugin for doing arithmetic division of two values in an input array. You provide the names of the values you want to divide, and a name to use to add the divide to the output array. For example, boavizta-cpu need cpu/number-cores to work, however cloud-metadata returns vcpus-allocated, to get number of cores you divide vcpus-allocated by 2.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/divide/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "mock-observations",
+        "github": "https://github.com/Green-Software-Foundation/if-plugins",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-plugins",
+        "description": "A plugin for mocking observations (inputs) for Impact Framework plugin development.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/mock-observations/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "multiply",
+        "github": "https://github.com/Green-Software-Foundation/if-plugins",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-plugins",
+        "description": "multiply is a generic plugin for multiplying two values in an input array together. You provide the names of the values you want to multiply, and a name to use to add the product to the output array. For example, multiply cpu/energy and number-cores to get total-energy.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/multiply/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "regex",
+        "github": "https://github.com/Green-Software-Foundation/if-plugins",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-plugins",
+        "description": "regex is a generic plugin to match part of one value using regular expressions and appending the result to another value. For example, you could match the cpu/energy using /number-cores/ and return the cpu/energy-per-core.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/regex/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "boavizta",
+        "github": "https://github.com/Green-Software-Foundation/if-plugins/tree/main",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-plugins",
+        "description": "Boavizta is an environmental impact calculator plugin for Impact Framework. It estimates the environmental impact of cloud hardware using the Boavizta API.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-plugins/blob/main/src/lib/boavizta/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "ccf",
+        "github": "https://github.com/Green-Software-Foundation/if-unofficial-plugins",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-unofficial-plugins",
+        "description": "Cloud Carbon Footprint is an open source tool for measuring and optimizing your cloud computing carbon emissions. This plugin integrates CCF with the Impact Framework.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-unofficial-plugins/blob/main/src/lib/ccf/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "co2js",
+        "github": "https://github.com/Green-Software-Foundation/if-unofficial-plugins",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-unofficial-plugins",
+        "description": "CO2js estimates the carbon cost of websites, here wrapped as a IF plugin",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-unofficial-plugins/blob/main/src/lib/co2js/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "teads-curve",
+        "github": "https://github.com/Green-Software-Foundation/if-unofficial-plugins/tree/main",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-unofficial-plugins",
+        "description": "Teads Engineering team has built a plugin that is capable of estimating CPU usages across varying type of CPUs using a curve commonly known as Teads Curve.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-unofficial-plugins/blob/main/src/lib/teads-curve/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "watt-time",
+        "github": "https://github.com/Green-Software-Foundation/if-unofficial-plugins/tree/main",
+        "npm": "https://www.npmjs.com/package/@grnsft/if-unofficial-plugins",
+        "description": "WattTime technology—based on real-time grid data, cutting-edge algorithms, and machine learning—provides first-of-its-kind insight into your local electricity grid’s marginal emissions rate. Here Watt-ime is wrapped as an Impact Framework plugin.",
+        "author": "Green Software Foundation",
+        "docs": "https://github.com/Green-Software-Foundation/if-unofficial-plugins/blob/main/src/lib/watt-time/README.md",
+        "tags": ["gsf"],
+        "badge": null
+      },
+      {
+        "name": "carbon-intensity-plugin",
+        "github": "https://github.com/jmcook1186/carbon-intensity-plugin",
+        "npm": "https://www.npmjs.com/package/carbon-intensity-plugin",
+        "description": "The Carbon Intensity plugin grabs grid intensity data from the UK National Grid carbon intensity API for a given date.",
+        "author": "Joseph Cook",
+        "docs": "https://github.com/jmcook1186/carbon-intensity-plugin",
+        "tags": ["gsf"],
+        "badge": null
+      }
+    ]
+  }
+  
