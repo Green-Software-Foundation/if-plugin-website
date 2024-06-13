@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run notion google groups script
+      - name: Run algolia data update script
         run: node algolia.js
         env:
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
